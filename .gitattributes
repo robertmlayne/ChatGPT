@@ -1,0 +1,13 @@
+# Always use LF in HTML
+*.html text eol=lf
+
+# Let Git decide for all other text files
+*       text=auto
+
+# Mark binaries so Git skips diffs
+*.png binary
+*.exe binary
+
+# Treat custom extensions as text for diffs
+*.config text
+
